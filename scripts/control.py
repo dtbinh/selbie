@@ -11,9 +11,9 @@ class balanceControl(invpen,PID):
 		PID.__init__(self)
 		invpen.__init__(self)
 		self.handles()
-		self.setKp(1.8)	#self.setKp(1.75)			#Always do PID tuning by ziegler nicols method 38.2
-		self.setKi(0.15)	#self.setKi(0.16)
-		self.setKd(0.1)	#self.setKd(0.048)
+		self.setKp(4)	#self.setKp(1.75)			#Always do PID tuning by ziegler nicols method 38.2 because it works
+		self.setKi(0)	#self.setKi(0.16)
+		self.setKd(0)	#self.setKd(0.048)
 		self.setPoint(0)
 		self.theta = 0
 		self.thetaA = 0

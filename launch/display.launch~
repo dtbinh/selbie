@@ -22,5 +22,5 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find selbie)/urdf.rviz" />
+    args="-d $(find scarao)/urdf.rviz" />
 </launch>
